@@ -4,9 +4,9 @@ Test XSIS is a Flutter project for testing at XSIS company
 
 ## Screenshots
 
-| List Product                                                                              | Search Product                                                                      | Add New Product                                                                          |
-|-------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
-| ![image](https://raw.githubusercontent.com/rfaturriza/test_XSIS/main/ss/list_product.png) | ![image](https://raw.githubusercontent.com/rfaturriza/test_XSIS/main/ss/search.png) | ![image](https://raw.githubusercontent.com/rfaturriza/test_XSIS/main/ss/add_product.png) |
+| List                                                                       | Search                                                                       | detail                                                                              |
+|-----------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|
+| ![image](https://raw.githubusercontent.com/rfaturriza/test_XSIS/main/ss/list.png) | ![image](https://raw.githubusercontent.com/rfaturriza/test_XSIS/main/ss/search.png) | ![image](https://raw.githubusercontent.com/rfaturriza/test_XSIS/main/ss/detail.png) |
 
 ## Tech
 
@@ -16,6 +16,7 @@ Test XSIS is a Flutter project for testing at XSIS company
 - Bloc
 - Dio
 - Get It & Injectable
+- Use FVM for Flutter SDK Management
 
 ## Features
 
@@ -46,7 +47,7 @@ To run this Flutter project on your local machine, follow these steps:
 
     ```bash
     make build
-    make generate
+    make locale
 
 4. **Run the application:**
 
