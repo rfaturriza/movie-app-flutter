@@ -83,15 +83,15 @@ android {
     buildTypes {
         debug {
             applicationIdSuffix ".debug"
-            resValue "string", "app_name", "Test BRIK (Debug)"
+            resValue "string", "app_name", "Test XSIS (Debug)"
         }
         profile {
             applicationIdSuffix ".profile"
-            resValue "string", "app_name", "Test BRIK (Profile)"
+            resValue "string", "app_name", "Test XSIS (Profile)"
         }
         release {
             signingConfig signingConfigs.release
-            resValue "string", "app_name", "Test BRIK"
+            resValue "string", "app_name", "Test XSIS"
         }
     }
 }
