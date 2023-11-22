@@ -1,6 +1,6 @@
-# Test XSIS
+# Movie App Flutter
 
-Test XSIS is a Flutter project for testing at XSIS company
+Movie App is a Flutter project with api from https://www.themoviedb.org
 
 ## Screenshots
 
@@ -60,4 +60,4 @@ To run this Flutter project on your local machine, follow these steps:
 If you have any questions or suggestions regarding the project, feel free to reach out to us:
 
 Email: rfaturriza@gmail.com
-We appreciate your interest in contributing to the Test XSIS project!
+We appreciate your interest in contributing to this project!
