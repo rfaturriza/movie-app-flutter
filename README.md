@@ -6,7 +6,7 @@ Test XSIS is a Flutter project for testing at XSIS company
 
 | List                                                                       | Search                                                                       | detail                                                                              |
 |-----------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|
-| ![image](https://raw.githubusercontent.com/rfaturriza/test_XSIS/main/ss/list.png) | ![image](https://raw.githubusercontent.com/rfaturriza/test_XSIS/main/ss/search.png) | ![image](https://raw.githubusercontent.com/rfaturriza/test_XSIS/main/ss/detail.png) |
+| ![image](https://raw.githubusercontent.com/rfaturriza/movie-app-flutter/main/ss/list.png) | ![image](https://raw.githubusercontent.com/rfaturriza/movie-app-flutter/main/ss/search.png) | ![image](https://raw.githubusercontent.com/rfaturriza/movie-app-flutter/main/ss/detail.png) |
 
 ## Tech
 
@@ -31,12 +31,12 @@ To run this Flutter project on your local machine, follow these steps:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/rfaturriza/test_XSIS.git
+   git clone https://github.com/rfaturriza/movie-app-flutter.git
 
 2. **Navigate to the project directory:**
 
    ```bash
-   cd test_XSIS
+   cd movie-app-flutter
 
 3. **Install dependencies:**
 
