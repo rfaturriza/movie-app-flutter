@@ -7,6 +7,7 @@ import 'package:test_xsis/core/components/loading_screen.dart';
 import 'package:test_xsis/core/network/dio_config.dart';
 import 'package:test_xsis/core/utils/extension/context_ext.dart';
 import 'package:test_xsis/core/utils/extension/string_ext.dart';
+import 'package:test_xsis/features/movie/domain/entities/video_movie.codegen.dart';
 import 'package:test_xsis/features/movie/presentation/bloc/detail_movie/detail_movie_bloc.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
@@ -185,7 +186,17 @@ class _TrailerMovie extends StatelessWidget {
   Widget build(BuildContext context) {
     return BlocBuilder<DetailMovieBloc, DetailMovieState>(
       builder: (context, state) {
-        final id = state.videos?.firstWhere((e) => e.official == true && e.site == 'YouTube').key;
+        if (state.videos == null || state.videos!.isEmpty) {
+          return const SizedBox();
+        }
+
+        final id = state.videos
+            ?.firstWhere(
+              (e) => e.official == true && e.site == 'YouTube',
+              orElse: () => const VideoMovie(),
+            )
+            .key;
+
         return Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
